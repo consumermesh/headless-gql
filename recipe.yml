@@ -47,12 +47,6 @@ config:
     gin_toolbar: '*'
     gin_login: '*'
     coffee: '*'
-    metatag: '*'
-    pathauto: '*'
-    paragraphs: '*'
-    redirect: '*'
-    subpathauto: '*'
-    simple_oauth: '*'
 
   actions:
     system.theme:
