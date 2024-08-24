@@ -46,7 +46,6 @@ config:
       - block.block.gin_primary_local_tasks    
     gin_toolbar: '*'
     gin_login: '*'
-    graphql_compose: '*'
     coffee: '*'
     metatag: '*'
     pathauto: '*'
