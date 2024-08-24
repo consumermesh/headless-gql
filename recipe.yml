@@ -1,0 +1,18 @@
+name: 'Headless Graphql Compose'
+description: 'configures drupal for Consumer Mesh'
+type: 'Content type'
+
+recipes:
+  - core/recipes/image_media_type
+  - core/recipes/core_recommended_admin_theme
+  - core/recipes/tags_taxonomy
+
+install:
+  - admin_toolbar
+  - metatag
+  - webform
+  - webform_rest
+  - weight
+
+config:
+  actions:
