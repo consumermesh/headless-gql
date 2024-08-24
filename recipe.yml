@@ -5,6 +5,12 @@ type: 'Content type'
 recipes:
   - core/recipes/image_media_type
   - core/recipes/tags_taxonomy
+  - core/recipes/basic_html_format_editor
+  - core/recipes/full_html_format_editor
+  - core/recipes/restricted_html_format
+  - core/recipes/administrator_role
+  - core/recipes/content_editor_role
+  - core/recipes/core_recommended_maintenance
 
 install:
   - admin_toolbar
