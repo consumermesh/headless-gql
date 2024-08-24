@@ -42,3 +42,7 @@ config:
     gin_login: '*'
 
   actions:
+    system.theme:
+      simple_config_update:
+        admin: 'gin'
+        default: 'gin'
