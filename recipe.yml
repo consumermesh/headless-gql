@@ -9,6 +9,7 @@ recipes:
 
 install:
   - admin_toolbar
+  - graphql_compose
   - metatag
   - webform
   - webform_rest
