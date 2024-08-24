@@ -2,6 +2,7 @@
   "name": "consumermesh/headless-gql",
   "description": "Consumer Mesh Headless GQL Compose",
   "type": "drupal-recipe",
+  "version": "0.1.0",
   "require": {
     "drupal/admin_toolbar": "^3.5",
     "drupal/coffee": "^1.4",
