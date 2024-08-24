@@ -17,7 +17,6 @@
     "drupal/graphql_compose_preview": "^1.0",
     "drupal/metatag": "^2.0",
     "drupal/office_hours": "^1.17",
-    "drupal/override_node_options": "^2.8",
     "drupal/paragraphs": "^1.17",
     "drupal/password_policy": "^4.0",
     "drupal/pathauto": "^1.12",
