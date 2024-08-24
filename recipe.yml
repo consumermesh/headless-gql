@@ -4,7 +4,6 @@ type: 'Content type'
 
 recipes:
   - core/recipes/image_media_type
-  - core/recipes/core_recommended_admin_theme
   - core/recipes/tags_taxonomy
 
 install:
@@ -39,4 +38,7 @@ config:
       - block.block.gin_messages
       - block.block.gin_page_title
       - block.block.gin_primary_local_tasks    
+    gin_toolbar: '*'
+    gin_login: '*'
+
   actions:
