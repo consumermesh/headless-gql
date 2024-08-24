@@ -9,13 +9,34 @@ recipes:
 
 install:
   - admin_toolbar
+  - coffee
+  - dropzonejs
   - graphql_compose
+  - graphql_compose_edges
+  - graphql_compose_image_style
+  - graphql_compose_menus
+  - graphql_compose_routes
+  - graphql_compose_users
+  - graphql_compose_views
+  - graphql_compose_metatags
+  - graphql_compose_preview
+  - graphql_compose_fragments
   - metatag
+  - metatag_open_graph
+  - metatag_twitter_cards
   - webform
   - webform_rest
   - weight
 
 config:
   import:
-    
+    gin:
+      - git.settings
+      - block.block.gin_breadcrumbs
+      - block.block.gin_content
+      - block.block.gin_help
+      - block.block.gin_local_actions
+      - block.block.gin_messages
+      - block.block.gin_page_title
+      - block.block.gin_primary_local_tasks    
   actions:
