@@ -35,18 +35,6 @@ install:
 
 config:
   import:
-    gin:
-      - git.settings
-      - block.block.gin_breadcrumbs
-      - block.block.gin_content
-      - block.block.gin_help
-      - block.block.gin_local_actions
-      - block.block.gin_messages
-      - block.block.gin_page_title
-      - block.block.gin_primary_local_tasks    
-    gin_toolbar: '*'
-    gin_login: '*'
-    coffee: '*'
 
   actions:
     system.theme:
