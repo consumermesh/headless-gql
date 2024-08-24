@@ -11,7 +11,7 @@
     "drupal/dropzonejs": "^2.8",
     "drupal/dynamic_entity_reference": "^3.2",
     "drupal/field_group": "^3.4",
-    "drupal/gin": "^3.0@RC"
+    "drupal/gin": "^3.0@RC",
     "drupal/gin_login": "^2.1",
     "drupal/gin_toolbar": "^1.0@RC",
     "drupal/graphql_compose": "^2.2",
@@ -29,6 +29,6 @@
     "drupal/view_unpublished": "^1.2",
     "drupal/visual_editor": "^1.0",
     "enyo/dropzone": "^5.7",
-    "wikimedia/composer-merge-plugin": "^2.1",
+    "wikimedia/composer-merge-plugin": "^2.1"
   }
 }
