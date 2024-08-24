@@ -15,7 +15,11 @@ recipes:
 install:
   - admin_toolbar
   - coffee
+  - config
   - dropzonejs
+  - gin
+  - gin_login
+  - gin_toolbar
   - graphql_compose
   - graphql_compose_edges
   - graphql_compose_image_style
