@@ -23,17 +23,18 @@ install:
   - gin_toolbar
   - graphql_compose
   - graphql_compose_edges
+  - graphql_compose_fragments
   - graphql_compose_image_style
   - graphql_compose_menus
+  - graphql_compose_metatags
+  - graphql_compose_preview
   - graphql_compose_routes
   - graphql_compose_users
   - graphql_compose_views
-  - graphql_compose_metatags
-  - graphql_compose_preview
-  - graphql_compose_fragments
   - metatag
   - metatag_open_graph
   - metatag_twitter_cards
+  - views_ui
   - webform
   - webform_rest
   - weight
