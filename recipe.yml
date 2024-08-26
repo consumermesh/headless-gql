@@ -4,6 +4,7 @@ type: 'Content type'
 
 recipes:
   - core/recipes/image_media_type
+  - core/recipes/document_media_type
   - core/recipes/tags_taxonomy
   - core/recipes/basic_html_format_editor
   - core/recipes/full_html_format_editor
