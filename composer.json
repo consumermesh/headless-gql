@@ -24,6 +24,7 @@
     "drupal/decoupled_preview_iframe": "^1.0",
     "drupal/dropzonejs": "^2.8",
     "drupal/dynamic_entity_reference": "^3.2",
+    "drupal/entity_browser": "^2.11",
     "drupal/field_group": "^3.4",
     "drupal/gin": "^3.0@RC",
     "drupal/gin_login": "^2.1",
