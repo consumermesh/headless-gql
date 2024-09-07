@@ -3,8 +3,8 @@
   "description": "Consumer Mesh Headless GQL Compose",
   "type": "drupal-recipe",
   "version": "0.1.0",
-  "repositories": {
-    "dropzone": {
+  "repositories": [
+    {
       "type": "package",
       "package": {
         "name": "enyo/dropzone",
@@ -16,7 +16,7 @@
         }
       }
     }
-  },
+  ],
   "require": {
     "drupal/admin_toolbar": "^3.5",
     "drupal/coffee": "^1.4",
