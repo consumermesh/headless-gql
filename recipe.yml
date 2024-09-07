@@ -17,8 +17,6 @@ install:
   - admin_toolbar
   - coffee
   - config
-  - dropzonejs
-  - dropzonejs_eb_widget
   - field_ui
   - gin
   - gin_login
@@ -49,7 +47,6 @@ config:
     admin_toolbar: '*'
     admin_toolbar_tools: '*'
     admin_toolbar_search: '*'
-    dropzonejs: '*'
     gin: '*'
     gin_login: '*'
     coffee: '*'

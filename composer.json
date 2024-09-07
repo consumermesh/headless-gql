@@ -3,28 +3,12 @@
   "description": "Consumer Mesh Headless GQL Compose",
   "type": "drupal-recipe",
   "version": "0.1.0",
-  "repositories": [
-    {
-      "type": "package",
-      "package": {
-        "name": "enyo/dropzone",
-        "version": "6.0.0-beta.2",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://github.com/dropzone/dropzone/releases/download/v6.0.0-beta.2/dist.zip",
-          "type": "zip"
-        }
-      }
-    }
-  ],
   "require": {
     "drupal/admin_toolbar": "^3.5",
     "drupal/coffee": "^1.4",
     "drupal/core-recommended": "^10.3",
     "drupal/decoupled_preview_iframe": "^1.0",
-    "drupal/dropzonejs": "^2.8",
     "drupal/dynamic_entity_reference": "^3.2",
-    "drupal/entity_browser": "^2.11",
     "drupal/field_group": "^3.4",
     "drupal/gin": "^3.0@RC",
     "drupal/gin_login": "^2.1",
@@ -47,7 +31,6 @@
     "drupal/webform": "^6.2",
     "drupal/webform_rest": "^4.1",
     "drupal/weight": "^3.4",
-    "enyo/dropzone": "^5.7",
     "wikimedia/composer-merge-plugin": "^2.1"
   }
 }
