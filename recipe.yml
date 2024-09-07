@@ -18,6 +18,7 @@ install:
   - coffee
   - config
   - dropzonejs
+  - field_ui
   - gin
   - gin_login
   - gin_toolbar
@@ -31,6 +32,7 @@ install:
   - graphql_compose_routes
   - graphql_compose_users
   - graphql_compose_views
+  - help
   - metatag
   - metatag_open_graph
   - metatag_twitter_cards
@@ -41,7 +43,12 @@ install:
 
 config:
   import:
-
+    admin_toolbar: '*'
+    admin_toolbar_tools: '*'
+    admin_toolbar_search: '*'
+    gin: '*'
+    gin_login: '*'
+    coffee: '*'
   actions:
     system.theme:
       simple_config_update:
