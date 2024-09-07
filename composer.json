@@ -18,6 +18,7 @@
     "drupal/graphql_compose_fragments": "^1.0@beta",
     "drupal/graphql_compose_preview": "^1.0",
     "drupal/metatag": "^2.0",
+    "drupal/key": "^1.19",
     "drupal/office_hours": "^1.17",
     "drupal/override_node_options": "^2.8",
     "drupal/paragraphs": "^1.17",
