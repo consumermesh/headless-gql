@@ -91,6 +91,6 @@ config:
       simple_config_update:
         admin: 'gin'
         default: 'gin'
-    ckeditor_media_embed.settings
+    ckeditor_media_embed.settings:
       simpleConfigUpdate:
         embed_provider: '//noembed.com/embed?url={url}&callback={callback}'
