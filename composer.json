@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "require": {
     "drupal/admin_toolbar": "^3.5",
+    "drupal/ckeditor_media_embed": "^2.0",
     "drupal/coffee": "^1.4",
     "drupal/core-recommended": "^10.3",
     "drupal/decoupled_preview_iframe": "^1.0",

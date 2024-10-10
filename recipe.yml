@@ -17,6 +17,7 @@ install:
   - admin_toolbar
   - admin_toolbar_tools
   - admin_toolbar_search
+  - ckeditor_media_embed
   - coffee
   - config
   - field_ui
@@ -49,6 +50,7 @@ config:
     admin_toolbar: '*'
     admin_toolbar_tools: '*'
     admin_toolbar_search: '*'
+    ckeditor_media_embed: '*'
     gin: '*'
     gin_login: '*'
     coffee: '*'
@@ -89,4 +91,6 @@ config:
       simple_config_update:
         admin: 'gin'
         default: 'gin'
-        
+    ckeditor_media_embed.settings
+      simpleConfigUpdate:
+        embed_provider: '//noembed.com/embed?url={url}&callback={callback}'
