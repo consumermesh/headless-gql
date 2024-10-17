@@ -57,7 +57,7 @@ config:
   actions:
     system.site:
       simple_config_update:
-        page.front: /home
+        page.front: /admin
     block.block.gin_admin:
       simple_config_update:
         status: false
