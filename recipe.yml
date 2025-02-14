@@ -53,6 +53,8 @@ config:
     ckeditor_media_embed: '*'
     gin: '*'
     gin_login: '*'
+    metatag:
+      - metatag.metatag_defaults.global
     coffee: '*'
   actions:
     system.site:
