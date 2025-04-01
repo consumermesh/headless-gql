@@ -12,18 +12,13 @@ recipes:
   - core/recipes/administrator_role
   - core/recipes/content_editor_role
   - core/recipes/core_recommended_maintenance
+  - kanopi/gin-admin-experience
 
 install:
-  - admin_toolbar
-  - admin_toolbar_tools
-  - admin_toolbar_search
   - ckeditor_media_embed
   - coffee
   - config
   - field_ui
-  - gin
-  - gin_login
-  - gin_toolbar
   - graphql_compose
   - graphql_compose_edges
   - graphql_compose_image_style
@@ -44,49 +39,18 @@ install:
   - weight
 
 config:
+  strict: false
   import:
-    admin_toolbar: '*'
-    admin_toolbar_tools: '*'
-    admin_toolbar_search: '*'
     ckeditor_media_embed: '*'
-    gin: '*'
-    gin_login: '*'
     metatag:
       - metatag.metatag_defaults.global
     coffee: '*'
+    node:
+      - views.view.content
   actions:
     system.site:
       simple_config_update:
         page.front: /admin
-    block.block.gin_admin:
-      simple_config_update:
-        status: false
-    block.block.gin_branding:
-      simple_config_update:
-        status: false
-    block.block.gin_local_actions:
-      simple_config_update:
-        region: content
-        weight: -10
-    block.block.gin_local_tasks:
-      simple_config_update:
-        status: false
-    block.block.gin_page_title:
-      simple_config_update:
-        region: header
-        weight: -10
-    block.block.gin_primary_local_tasks:
-      simple_config_update:
-        region: header
-        weight: -5
-        settings.secondary: true
-    block.block.gin_tools:
-      simple_config_update:
-        status: false
-    block.block.gin_content:
-      simple_config_update:
-        status: content
-        weight: -5
     system.theme:
       simple_config_update:
         admin: 'gin'
