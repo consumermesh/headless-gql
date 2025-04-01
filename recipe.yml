@@ -3,15 +3,16 @@ description: 'configures drupal for Consumer Mesh'
 type: 'Content type'
 
 recipes:
-  - core/recipes/image_media_type
-  - core/recipes/document_media_type
-  - core/recipes/tags_taxonomy
-  - core/recipes/basic_html_format_editor
-  - core/recipes/full_html_format_editor
-  - core/recipes/restricted_html_format
   - core/recipes/administrator_role
+  - core/recipes/basic_html_format_editor
   - core/recipes/content_editor_role
   - core/recipes/core_recommended_maintenance
+  - core/recipes/document_media_type
+  - core/recipes/full_html_format_editor
+  - core/recipes/image_media_type
+  - core/recipes/restricted_html_format
+  - core/recipes/tags_taxonomy
+  - core/recipes/standard_responsive_images
   - kanopi/gin-admin-experience
 
 install:
@@ -47,6 +48,8 @@ config:
     coffee: '*'
     node:
       - views.view.content
+      - views.view.content_recent
+      - views.view.frontpage
   actions:
     system.site:
       simple_config_update:
