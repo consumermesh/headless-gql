@@ -13,7 +13,6 @@ recipes:
   - core/recipes/restricted_html_format
   - core/recipes/tags_taxonomy
   - core/recipes/standard_responsive_images
-  - kanopi/gin-admin-experience
 
 install:
   - ckeditor_media_embed
