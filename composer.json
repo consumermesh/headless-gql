@@ -28,6 +28,7 @@
     "drupal/webform": "^6.3@beta",
     "drupal/webform_rest": "^4.2",
     "drupal/weight": "^3.6",
+    "kanopi/gin-admin-experience": "*",
     "wikimedia/composer-merge-plugin": "^2.1"
   }
 }
