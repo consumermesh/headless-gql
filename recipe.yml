@@ -15,6 +15,7 @@ recipes:
   - core/recipes/standard_responsive_images
 
 install:
+  - admin_toolbar
   - ckeditor_media_embed
   - coffee
   - config
