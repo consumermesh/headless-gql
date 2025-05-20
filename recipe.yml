@@ -62,28 +62,6 @@ config:
       - views.view.content_recent
       - views.view.frontpage
   actions:
-    # Set and unset Gin blocks.
-    block.block.gin_admin:
-      setStatus: false
-    block.block.gin_branding:
-      setStatus: false
-    block.block.gin_local_actions:
-      setRegion: content
-      setWeight: -10
-    block.block.gin_local_tasks:
-      setStatus: false
-    block.block.gin_page_title:
-      setRegion: header
-      setWeight: -10
-    block.block.gin_primary_local_tasks:
-      setRegion: header
-      setWeight: -5
-      # @TODO Blocks should have setSetting(s) config action.
-      # We shouldn't use simpleConfigUpdate here as this is not simple config.
-      simpleConfigUpdate:
-        settings.secondary: true
-    block.block.gin_tools:
-      setStatus: false
     system.site:
       simple_config_update:
         page.front: /admin
