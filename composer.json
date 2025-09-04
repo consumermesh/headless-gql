@@ -10,7 +10,7 @@
     "drupal/core-recommended": "^11",
     "drupal/decoupled_preview_iframe": "^1.0",
     "drupal/dynamic_entity_reference": "^3.2",
-    "drupal/field_group": "^3.4",
+    "drupal/field_group": "^4.0",
     "drupal/gin": "^5.0",
     "drupal/gin_login": "^2.1",
     "drupal/gin_toolbar": "^3.0",
