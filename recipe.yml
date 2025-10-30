@@ -22,6 +22,7 @@ install:
   - field_ui
   - gin
   - gin_login
+  - gin_toolbar
   - graphql_compose
   - graphql_compose_edges
   - graphql_compose_image_style
@@ -57,7 +58,9 @@ config:
       - block.block.gin_messages
       - block.block.gin_page_title
       - block.block.gin_primary_local_tasks
+      - block.block.gin_secondary_local_tasks
     gin_login: '*'
+    gin_toolbar: '*'
     node:
       - views.view.content
       - views.view.content_recent
