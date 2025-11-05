@@ -22,6 +22,7 @@
     "drupal/paragraphs": "^1.18",
     "drupal/password_policy": "^4.0",
     "drupal/pathauto": "^1.13",
+    "drupal/restui": "^1.22",
     "drupal/simple_oauth": "^6.0@beta",
     "drupal/subpathauto": "^1.4",
     "drupal/view_unpublished": "^1.3",

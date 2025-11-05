@@ -36,6 +36,8 @@ install:
   - metatag_open_graph
   - metatag_twitter_cards
   - pathauto
+  - rest
+  - restui
   - views_ui
   - view_unpublished
   - webform
@@ -76,3 +78,6 @@ config:
     ckeditor_media_embed.settings:
       simpleConfigUpdate:
         embed_provider: '//noembed.com/embed?url={url}&callback={callback}'
+    user.role.anonymous:
+      grantPermissions:
+        - restful post webform_rest_submit
