@@ -20,6 +20,7 @@ install:
   - coffee
   - config
   - field_ui
+  - focal_point
   - gin
   - gin_login
   - gin_toolbar
@@ -32,12 +33,15 @@ install:
   - graphql_compose_users
   - graphql_compose_views
   - help
+  - jsonapi
   - metatag
   - metatag_open_graph
   - metatag_twitter_cards
+  - normalized_image_styles
   - pathauto
   - rest
   - restui
+  - simple_oauth
   - views_ui
   - view_unpublished
   - webform
@@ -62,6 +66,8 @@ config:
       - block.block.gin_primary_local_tasks
       - block.block.gin_secondary_local_tasks
     gin_login: '*'
+    jsonapi:
+      - jsonapi.settings
     gin_toolbar: '*'
     node:
       - views.view.content
