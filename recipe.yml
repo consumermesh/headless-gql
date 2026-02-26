@@ -37,7 +37,6 @@ install:
   - metatag
   - metatag_open_graph
   - metatag_twitter_cards
-  - normalized_image_styles
   - pathauto
   - rest
   - restui
