@@ -14,7 +14,7 @@
     "drupal/focal_point": "^2.0",
     "drupal/gin": "^4.0 || ^5.0",
     "drupal/gin_login": "^2.1",
-    "drupal/gin_toolbar": "^2.0 || ^3.0",
+    "drupal/gin_toolbar": "^3.0",
     "drupal/graphql_compose": "^2.3",
     "drupal/metatag": "^2.1",
     "drupal/key": "^1.19",
