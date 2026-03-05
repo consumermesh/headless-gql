@@ -68,6 +68,7 @@ config:
     jsonapi:
       - jsonapi.settings
     gin_toolbar: '*'
+    simple_oauth: '*'
     node:
       - views.view.content
       - views.view.content_recent
