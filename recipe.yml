@@ -53,6 +53,7 @@ config:
     ckeditor_media_embed: '*'
     metatag:
       - metatag.metatag_defaults.global
+    focal_point: '*'
     coffee: '*'
     gin:
       - gin.settings
