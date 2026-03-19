@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies: {  }
+name: embed_md
+label: 'Embedded media 800w'
+effects:
+  a1b2c3d4-0002-4000-8000-000000000001:
+    uuid: a1b2c3d4-0002-4000-8000-000000000001
+    id: image_scale
+    weight: 0
+    data:
+      width: 800
+      height: null
+      upscale: false
+  a1b2c3d4-0002-4000-8000-000000000002:
+    uuid: a1b2c3d4-0002-4000-8000-000000000002
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
