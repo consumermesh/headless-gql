@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.embed_md
+label: 'Embedded Medium'
+targetEntityType: media
+cache: true
