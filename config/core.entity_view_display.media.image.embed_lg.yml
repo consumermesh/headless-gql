@@ -13,7 +13,7 @@ bundle: image
 mode: embed_lg
 content:
   field_media_image:
-    type: responsive_image_formatter
+    type: responsive_image
     weight: 0
     settings:
       responsive_image_style: embedded_media
