@@ -85,6 +85,17 @@ config:
     ckeditor_media_embed.settings:
       simpleConfigUpdate:
         embed_provider: '//noembed.com/embed?url={url}&callback={callback}'
+    filter.format.basic_html:
+      simple_config_update:
+        filters.media_embed:
+          id: media_embed
+          provider: media
+          status: true
+          weight: 100
+          settings:
+            default_view_mode: default
+            allowed_view_modes: {}
+            allowed_media_types: {}
     user.role.anonymous:
       grantPermissions:
         - restful post webform_rest_submit
