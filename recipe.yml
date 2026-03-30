@@ -37,6 +37,7 @@ install:
   - metatag
   - metatag_open_graph
   - metatag_twitter_cards
+  - nodeaccess
   - pathauto
   - rest
   - restui

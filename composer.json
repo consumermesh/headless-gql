@@ -17,6 +17,7 @@
     "drupal/gin_toolbar": "^3.0",
     "drupal/graphql_compose": "^2.3",
     "drupal/metatag": "^2.1",
+    "drupal/nodeaccess": "^2.0@alpha",
     "drupal/key": "^1.19",
     "drupal/office_hours": "^1.21",
     "drupal/override_node_options": "^2.9",
